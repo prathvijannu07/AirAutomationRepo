@@ -1,0 +1,21 @@
+package com.testMaven;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class TestMaven {
+
+		
+	@Test
+	public void invock() {
+		WebDriver driver;
+		 System.setProperty("webdriver.gecko.driver", "D:\\GitRepo\\TestMavenProject\\TestProject\\drivers\\geckodriver.exe");
+        driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.get("https://tickets.paytm.com/");
+		System.out.println("Test Automation project");
+		driver.close();
+	}
+
+}

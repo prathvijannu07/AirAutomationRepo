@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+
+    <test name="SeleniumTests">
+        <classes>
+            <class name="com.testMaven.testProject" />
+            <!-- Add more test classes as needed -->
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="YourListenerClass" />
+        <!-- Add more listeners as needed -->
+    </listeners>
+
+</suite>

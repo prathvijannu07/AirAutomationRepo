@@ -1,0 +1,23 @@
+package com.testMaven;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
+
+//@Test
+public class testProject {
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver;
+		 System.setProperty("webdriver.gecko.driver", "C:\\Users\\Prateek\\Desktop\\Drivers\\geckodriver.exe");
+         driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.get("https://tickets.paytm.com/");
+//		WebDriverWait WaitUntilElemetLocated= new WebDriverWait(driver,30);
+		Thread.sleep(3000);
+
+	}
+	
+
+}

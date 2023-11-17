@@ -1,0 +1,10 @@
+package com.testMaven;
+
+import org.testng.annotations.Test;
+
+@Test
+public class testProject {
+	public void syso() {
+System.out.println("Hello TestNG");
+}
+}

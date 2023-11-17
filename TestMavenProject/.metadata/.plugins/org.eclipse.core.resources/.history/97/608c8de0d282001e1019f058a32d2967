@@ -1,0 +1,16 @@
+package com.testMaven;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
+
+@Test
+public class testProject {
+	System.setProperty("webdriver.chrome.driver","/TestProject/drivers/chromedriver.exe" );  
+	 driver= new FirefoxDriver(); 
+	driver.manage().window().maximize();
+	driver.navigate().to("https://tickets.paytm.com/");
+	WebDriverWait WaitUntilElemetLocated= new WebDriverWait(driver,30);
+	Thread.sleep(3000);
+}
+}

@@ -1,0 +1,8 @@
+package com.testMaven;
+
+public class testProject {
+private void syso() {
+	System.out.println("hello");
+
+}
+}
