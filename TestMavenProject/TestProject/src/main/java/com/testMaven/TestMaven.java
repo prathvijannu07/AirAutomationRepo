@@ -37,7 +37,7 @@ public class TestMaven {
 		WebElement Way1=driver.findElement(By.id("ow"));
 		if(Way1.isDisplayed())	
 		reports.attachReporter(spark);
-		reports.createTest("MyFirstTest").log(Status.PASS, "OnWay is displayed");
+		reports.createTest("AirAutomation_Test_Report").log(Status.PASS, "OnWay is displayed");
 		reports.flush();;
 	}
 	
