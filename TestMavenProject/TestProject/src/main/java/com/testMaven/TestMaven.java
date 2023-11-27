@@ -44,7 +44,7 @@ public class TestMaven {
 		if(Way1.isDisplayed())	
 		reports.attachReporter(spark);
 		reports.createTest("AirAutomation_Test_Report").log(Status.PASS, "OnWay is displayed");
-		takeSnapShot(driver,"target\\Screenshots\\test.png");
+		takeSnapShot(driver,"test-output\\Screenshots\\test.png");
 		reports.flush();
 	}
 	
