@@ -5,7 +5,9 @@
     <test name="TestMaven">
         <classes>
             <class name="com.testMaven.TestMaven"/>
+            <class name="com.testMaven.TestMaven"/>
         </classes>
     </test>
+   
 
 </suite>
